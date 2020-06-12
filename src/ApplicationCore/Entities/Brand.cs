@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Entities
 {
-    public class Brand
+    public class Brand : BaseEntity
     {
         public string BrandName { get; set; }
     }
